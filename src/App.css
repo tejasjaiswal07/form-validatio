@@ -1,0 +1,58 @@
+body {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(30, 54, 59, 1) 0%,
+    rgba(93, 93, 116, 1) 100%
+  );
+}
+.container {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  max-width: 450px;
+  width: 100%;
+  margin: auto;
+}
+
+.container > form {
+  width: 100%; /* Changed width to 100% to occupy the entire width of the container */
+  max-width: 60%; /* Set max-width to maintain the desired width */
+  border: 1px solid #dfdfdf;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+pre {
+  width: 70%;
+  color: #f0e8e8;
+  font-size: larger;
+}
+
+button {
+  background: #0563b4 !important;
+}
+p {
+  color: rgb(227, 192, 192);
+}
+.field{
+  color: #0563b4;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.login{
+
+  background: #0563b4 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 5px !important;
+  padding: 10px !important;
+  margin-top: 10px !important;
+  cursor: pointer !important;
+}
